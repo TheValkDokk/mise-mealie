@@ -36,22 +36,20 @@ flutter test test/live_mealie_test.dart
 The important habit: assert the **state after the write**, never the status code.
 Mealie (like most APIs) will happily answer 200 to a request it ignored.
 
-## The demo recording
+## Smoke test
 
-`integration_test/demo_tour_test.dart` drives a scripted tour (connect → cookbook
-→ recipe → cook mode → list) so the README video can be re-recorded after a UI
-change:
+`integration_test/demo_tour_test.dart` taps through connect → cookbook → recipe →
+cook mode → list on a simulator:
 
 ```bash
-xcrun simctl io booted recordVideo --codec h264 --force /tmp/tour.mp4 &
 flutter test integration_test/demo_tour_test.dart -d <simulator-udid>
-kill -INT %1
-ffmpeg -ss 25.5 -i /tmp/tour.mp4 -t 29.5 \
-  -vf "fps=30,scale=720:-2" -c:v libx264 -crf 24 -movflags +faststart -an docs/demo.mp4
 ```
 
-The trim offset is where the app first appears on screen; it moves when the
-build gets faster or slower, so check a frame before publishing.
+It is a smoke test, **not** a video source. `integration_test` renders frames
+only when the test pumps, so a screen recording of it comes out at ~4 fps and
+looks like a slideshow. For a smooth capture, run the app normally and record
+with touches from outside — a real device, Android `adb shell input tap`, or
+XCUITest — then encode at 30 fps.
 
 ## Rules of the house
 
