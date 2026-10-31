@@ -60,9 +60,24 @@ actual product research, and you cannot answer five threads at once.
 - Do not post to r/selfhosted as a standalone. Rule: new projects go in the
   weekly megathread, and a removal in a 500k+ sub is worse than no post.
 
+## What is automated
+
+- **Images** — `python3 tool/make_social_cards.py` builds `docs/social/`: the
+  1200×630 link card, a 1200×675 for X, a 1080 square, and a three-up strip. All
+  from real screenshots on the app's palette.
+- **Thread posting** — `python3 tool/post_social.py` posts `thread.json` to
+  Mastodon and Bluesky, images and alt text included, threading the replies. Dry
+  run by default; `--post` with `MASTODON_TOKEN` / `BSKY_APP_PASSWORD` in the env
+  sends it. Bluesky gets link facets, so `github.com/...` is clickable.
+- **Schedule** — `schedule.csv` has the channel, the local and UTC time, and the
+  copy file for each step.
+- **Timing** — nothing posts itself. Reddit and HN are the channels where a bot
+  gets the account banned, so those two stay manual by design.
+
 ## Assets
 
 - Screenshots: `docs/screenshots/{today,recipes,recipe,list,cook}.png` (720 px).
+- Social cards: `docs/social/{og-1200x630,x-1200x675,square-1080,thread-1200x900}.png`.
 - Repo: https://github.com/TheValkDokk/mise-mealie
 - Release: https://github.com/TheValkDokk/mise-mealie/releases/tag/v1.0.0
 - One APK to link in posts, not three: `Mise-1.0.0-arm64-v8a.apk`.

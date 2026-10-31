@@ -1,0 +1,24 @@
+[
+  {
+    "mastodon": "Shipped a small thing: Mise, a mobile client for Mealie — the self-hosted recipe manager I run at home.\n\nAndroid APK + iOS from source, GPL-3.0, no account, no analytics, no server of mine. It only talks to your instance.\n\nBuilt around the twenty minutes you spend cooking, not the ten you spend browsing.\n\nhttps://github.com/TheValkDokk/mise-mealie\n\n#selfhosted #Mealie #Flutter #opensource",
+    "bluesky": "Shipped Mise: a mobile client for Mealie, the self-hosted recipe manager.\n\nAndroid APK + iOS source, GPL-3.0, no account, no analytics.\n\nBuilt around the 20 minutes you spend cooking, not the 10 you spend browsing.\n\ngithub.com/TheValkDokk/mise-mealie",
+    "image": "docs/social/og-1200x630.png",
+    "alt": "Cream card reading “Mise — Dinner, decided.” with two phone screens: tonight's pasta plan and a dark cook-mode step."
+  },
+  {
+    "mastodon": "Cook mode is the reason it exists: one step at a time, 26pt type, black screen, and the entire surface is a tap target — so you can advance it with the back of a knuckle when your hands are covered in flour.",
+    "bluesky": "Cook mode is the reason it exists: one step, 26pt type, black screen, whole screen a tap target — advance it with a knuckle when your hands are floury.",
+    "image": "docs/screenshots/cook.png",
+    "alt": "A single recipe instruction in large cream type on a near-black screen, with “STEP 1 OF 4” above it and a thin ember progress bar."
+  },
+  {
+    "mastodon": "The rest is quiet: tonight's dinner as a full-bleed card, a photography-first cookbook, and a shopping list where one button pulls every recipe on the next seven days of the plan into the list.",
+    "bluesky": "The rest is quiet: tonight's dinner as a full-bleed card, a photo-first cookbook, and a list where one button pulls the week's planned recipes in.",
+    "image": "docs/screenshots/today.png",
+    "alt": "A warm cream screen with a large photo of pasta, the title “Garlic Butter Pasta”, a 20 MIN / 2 SERVES row, and two upcoming meal cards."
+  },
+  {
+    "mastodon": "The field isn't empty — Ghee, Mealie Go, Meshi Plan all exist, and Ghee is free. Two reasons to build a fourth: GPL-3.0 means it can't quietly become a paid app later, and cooking is the centre of the design instead of a feature on a checklist.\n\nGaps, plainly: read-only, no offline queue, one list.",
+    "bluesky": "Field isn't empty — Ghee, Mealie Go, Meshi Plan exist. Reasons for a fourth: GPL means no paywall later, and cooking is the centre of the design.\n\nGaps: read-only, no offline queue, one list."
+  }
+]

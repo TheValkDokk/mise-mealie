@@ -1,0 +1,12 @@
+order,channel,copy source,when local (+07),when UTC,state,notes
+1,Mastodon thread,docs/posts/thread.json,Fri 30 Oct 21:00,14:00,todo,"tool/post_social.py posts it; needs MASTODON_TOKEN"
+1,Bluesky thread,docs/posts/thread.json,Fri 30 Oct 21:00,14:00,todo,"same script; needs BSKY_APP_PASSWORD"
+2,Mealie Discussions,mealie-community.md,Mon 2 Nov 21:00,14:00,todo,ship-day venue; answer the "is there an app" threads after
+2,Discord #showcase,mealie-community.md,Mon 2 Nov 21:10,14:10,todo,one message; no bump
+3,r/selfhosted weekly megathread,reddit-selfhosted.md,Mon 2 Nov 10:00,03:00,todo,comment in the *fresh* weekly thread only
+4,r/Mealie,reddit-mealie.md,Tue 3 Nov 20:30,13:30,todo,08:30 US Eastern; answer everything for a day
+5,Show HN,show-hn.md,Wed 4 Nov 20:30,13:30,todo,08:30 US Eastern Wed; URL = repo; first comment same minute
+6,r/androidapps,reddit-androidapps.md,Thu 5 Nov 20:00,13:00,todo,"[Dev] tag + free/no-ads line or removal"
+7,Blog post,blog-post.md,Fri 6 Nov 21:00,14:00,todo,dev.to; link it from the HN comments rather than as a launch
+8,IzzyOnDroid request,fdroid-izzy.md,any day,,todo,Codeberg issue; days not weeks
+9,F-Droid MR,fdroid-izzy.md,after Izzy,,todo,fdroiddata merge request; expect a build failure round
