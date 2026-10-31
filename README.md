@@ -10,6 +10,8 @@ plan, and the shopping list.
 [![Platforms](https://img.shields.io/badge/platform-iOS%20%7C%20Android-lightgrey)](#install)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
+[![A 30-second tour of Mise](docs/social/demo-poster.png)](docs/demo.mp4)
+
 <a href="docs/screenshots/today.png"><img src="docs/screenshots/today.png" width="180"></a>
 <a href="docs/screenshots/recipes.png"><img src="docs/screenshots/recipes.png" width="180"></a>
 <a href="docs/screenshots/recipe.png"><img src="docs/screenshots/recipe.png" width="180"></a>
