@@ -20,12 +20,15 @@ plan, and the shopping list.
 
 - Mealie is the best self-hosted recipe manager, and its web UI is excellent —
   on a laptop. On a phone it is a website you have to find, log into, and pinch.
-- The official Android app **disappeared from Play** (users asking where it went:
-  [discussion #5339](https://github.com/mealie-recipes/mealie/discussions/5339)),
-  and what fills the gap is a £0.99 third-party iOS client and a handful of
-  companion apps.
-- Cooking is the one moment when you *cannot* hold a phone steady, wait for a
-  page load, or squint at 14px text. That is a native app problem.
+- There is **no official mobile app**. Android's disappeared from Play (users
+  asking where it went: [discussion #5339](https://github.com/mealie-recipes/mealie/discussions/5339)),
+  and the community answer is the PWA.
+- Third-party clients exist and some are good — **Ghee** (free, Flutter, both
+  platforms), Meshi Plan, Mealie Go, Mealient (archived 2024), and a long tail of
+  iOS apps. This is not an empty field, and pretending otherwise would be silly.
+- What is missing is a client that (a) cannot drift into a paywall, because it is
+  GPL-3.0 and forkable, and (b) is designed around the twenty minutes you spend
+  cooking rather than the ten you spend browsing recipes.
 
 Mise is not affiliated with the Mealie project. It speaks the public v3 API.
 
