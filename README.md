@@ -67,6 +67,11 @@ Mise is not affiliated with the Mealie project. It speaks the public v3 API.
 adb install app-arm64-v8a-release.apk
 ```
 
+Also listed on **IzzyOnDroid** and submitted to **F-Droid** — both read the
+`fastlane/` tree in this repo, so the description, screenshots and changelog
+here are the source of truth (`python3 tool/make_store_metadata.py` regenerates
+and validates them).
+
 **iOS** — build from source (no App Store listing yet):
 
 ```bash

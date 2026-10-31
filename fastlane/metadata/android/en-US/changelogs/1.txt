@@ -1,0 +1,9 @@
+First release.
+
+- Tonight: today's meal plan, with dinner as a full-bleed card
+- Cookbook: search, category filters, recipe pages with ingredients
+- Cook mode: one step at a time, large type, tap anywhere to advance
+- Shopping list: check off, swipe to remove, add this week's ingredients
+- Sign in with your own Mealie server; no account with us, no tracking
+
+Requires Mealie 2.x or 3.x. Read-only cookbook for now.

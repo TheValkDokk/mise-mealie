@@ -1,0 +1,10 @@
+<p><b>Mise</b> is a mobile client for <b>Mealie</b>, the self-hosted recipe manager and meal planner. It covers the parts of Mealie you actually use standing up: tonight's dinner, the cookbook, cook mode, and the shopping list.</p>
+<p>It talks only to the Mealie server you give it. No account, no analytics, no service of ours in the middle.</p>
+<p><b>Tonight</b><br>Today's plan with tonight's dinner as a full-bleed photo card, the next few days underneath, and the state of the shopping list.</p>
+<p><b>Cookbook</b><br>Search and category filters over your recipes, two per row, photography first. Open one for time, servings, method, and an ingredient list you can tick off as you go.</p>
+<p><b>Cook mode</b><br>One step at a time in large type on a black screen, with the whole screen as a tap target - so you can advance it with the back of a knuckle when your hands are covered in flour.</p>
+<p><b>Shopping</b><br>Unchecked items first, then what is already in the basket; swipe to remove. One button pulls the ingredients of every recipe on the next seven days of your plan into the list.</p>
+<p><b>Where your data lives</b><br>Recipes, plan and list are cached on the phone, so the app opens to content instead of a spinner. Your password is used once to obtain a token and is never stored. There is no telemetry and no third-party SDK.</p>
+<p><b>What you need</b><br>Your own Mealie instance (2.x or 3.x) reachable from the phone, on your LAN or behind a reverse proxy. A demo mode with six recipes lets you look around before connecting to anything.</p>
+<p><b>Honest limits</b><br>The cookbook is read-only: recipes cannot be created or edited in the app. Writes need a network connection. One shopping list for now. The token expires after about two days, and then you sign in again.</p>
+<p><b>Free software</b><br>GPL-3.0, source and issues on GitHub. Not affiliated with the Mealie project.</p>
